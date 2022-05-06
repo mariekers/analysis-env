@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+      "*.bqsql": "bigquery"
+    },
+    "bqExtensionVSCode.formatting.printKeywordsInUpperCase":"true"
+  }

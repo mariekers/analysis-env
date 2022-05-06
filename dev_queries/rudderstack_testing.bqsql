@@ -1,0 +1,11 @@
+
+-- select count(*) 
+--     , sum(case when applicant_email is null and applicant_name is null then 1 else 0 end) null_email_name
+--     , sum(case when applicant_email is null and applicant_name is not null then 1 else 0 end) null_email_only
+--     , count(distinct applicant_name) applicant_names
+--     , count(distinct applicant_email) applicant_emails
+--     , count(distinct applicant_email || _sdc_extracted_at) email_rows
+-- from `api-5881858256571029744-997509.flatiron_fasttrack.Master_List` 
+
+select *
+from `api-5881858256571029744-997509`.flatiron_fasttrack.Master_List m
